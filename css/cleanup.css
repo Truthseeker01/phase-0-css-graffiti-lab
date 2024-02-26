@@ -1,1 +1,20 @@
 /* write your override styles here */
+#wall .tag-1{
+    display: none;
+    background: none;
+}
+#wall .tag-2{
+    z-index: 7;
+}
+#tag-3 .slick{
+    display: flex;
+}
+.parent #tag-4{
+    z-index: 6;
+}
+#wall div{
+    background-color: aqua;
+}
+body div#wall div.parent div:last-child div#tag-6{
+    display: grid;
+}
